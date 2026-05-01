@@ -1,3 +1,4 @@
+import 'package:assignment_10/signUp_screen.dart';
 import 'package:assignment_10/welcome_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
 
       routes: {
         '/login': (context) => LoginScreen(),
-        // '/signup': (context) => SignUpScreen(),
+        '/signup': (context) => SignUpScreen(),
       },
     );
   }
