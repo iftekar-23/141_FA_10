@@ -1,6 +1,8 @@
 import 'package:assignment_10/welcome_screen.dart';
 import 'package:flutter/material.dart';
 
+import 'login_screen.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -21,10 +23,10 @@ class MyApp extends StatelessWidget {
       home: WelcomeScreen(),
 
 
-      // routes: {
-      //   '/login': (context) => LoginScreen(),
-      //   '/signup': (context) => SignUpScreen(),
-      // },
+      routes: {
+        '/login': (context) => LoginScreen(),
+        // '/signup': (context) => SignUpScreen(),
+      },
     );
   }
 }
